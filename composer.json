@@ -1,0 +1,15 @@
+{
+  "name" : "the-crazy-programmer/the-crazy-programmer",
+  "type" : "project",
+  "description" : "A simple php project with blogs data",
+  "keywords" : [],
+  "License" :  "",
+  "require" : {},
+  "require-dev" : {},
+  "autoload" : {
+    "psr-4" : {
+      "App\\" : "app//"
+    },
+    "files": ["app/helpers/helpers.php"]
+  }
+}
